@@ -3,11 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'App',
-  template:
-  `<div>
-    <h2>Welcome to {{name}} Angular4!</h2>
-  </div>`
+  selector: 'app-root',
+  templateUrl: './appTemplate.html'
 })
 export class AppComponent implements OnInit {
   public readonly name = 'electron-forge';
